@@ -1,0 +1,51 @@
+.dotted-circle{
+    position: absolute;
+    height: 1100px;
+    width: 1100px;
+    border-radius: 50%;
+    border: 2px dashed green;
+    right: 10px;
+    margin-top: 100px;
+
+}
+
+
+.circle {
+    position: absolute;
+    left: calc(50% - 25px);
+    top: calc(0% - 25px);
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+.center-image{
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    left: 55%;
+    top: 50%;
+}
+
+.circle:nth-child(1) {
+    transform: translateX(-500px) translateY(200px);
+}
+
+.circle:nth-child(2) {
+    transform: translateX(-320px) translateY(40px);
+}
+
+.circle:nth-child(3) {
+    transform: translateX(-70px);
+}
+
+.circle:nth-child(4) {
+    transform: translateX(200px) translateY(40px);
+}
+
+.circle:nth-child(5) {
+    transform: translateX(380px) translateY(200px);
+}
+
+
+
